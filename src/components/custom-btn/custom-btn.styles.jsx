@@ -60,11 +60,5 @@ export const CustomButton = styled.button`
   display: flex;
   justify-content: center;
 
-  &:hover {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-  }
-
   ${getButtonStyles}
 `;
